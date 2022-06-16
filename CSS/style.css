@@ -14,7 +14,6 @@
   header{
     display: flex;
     justify-content: space-between;
-    background-color: #BDD0FD;
     color: #262626;
     height: 10vh;
   }
