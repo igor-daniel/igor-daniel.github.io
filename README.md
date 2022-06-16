@@ -1,2 +1,3 @@
 # igor-daniel.github.io
-projeto exe
+
+Projeto voltado para expor meus trabalhos e conhecimento em tecnologia.
