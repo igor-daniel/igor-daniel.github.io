@@ -7,9 +7,18 @@
     padding-right: 100px;
     padding-left: 100px;
   }
-  
+  /* @font-face {
+    font-family: 'razed';
+    src: url('/fonts/razed/HBM\ Razed\ Light\ \(personal\ use\ only\).ttf') format('truetype');
+  } */
   a{
     text-decoration: none;
+    color: #262626;
+  }
+  .logo a{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #5e17eb;
+    font-size: 30px;
   }
   
   header{
@@ -28,6 +37,7 @@
   }
   .nav-manu li{
     padding: 0px 25px;
+    font-size: 20px;
   
   }
   /* estilizando o main */
@@ -81,4 +91,9 @@
   }
   .sobre p {
     font-size: 20px;
+  }
+
+  .assinatura{
+    font-family: 'Whisper', cursive;
+    text-align: end;
   }
