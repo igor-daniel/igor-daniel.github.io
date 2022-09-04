@@ -5,8 +5,10 @@
 }
 
 .limite {
-  padding-right: 100px;
-  padding-left: 100px;
+  width: 85%;
+  margin: auto;
+  /* padding-right: 100px;
+  padding-left: 100px; */
 }
 
 /* @font-face {
@@ -26,13 +28,18 @@ a {
 
 header {
   display: flex;
+}
+
+.head {
+  display: flex;
   justify-content: space-between;
   color: #262626;
   height: 10vh;
 }
 
-header div {
-  /* margin: 20px; */
+
+.head div {
+  margin: 20px;
   padding: 25px 0;
 }
 
@@ -47,41 +54,51 @@ header div {
 
 }
 
+/* fim do cabeçalho */
+
 /* estilizando o main */
-main {
+.conteudo {
   display: flex;
   justify-content: space-around;
   align-items: center;
   /* padding: 30px 10px;  */
-  height: 50vh;
+  /* height: 50vh; */
 }
 
 .main-sec h1 {
   font-size: 50px;
-  /* padding-bottom: 20px; */
+  padding: 70px 0 25px 0;
   color: #262626;
   font-family: 'Righteous', cursive;
 }
 
 .main-sec p {
-  font-size: 22px;
+  font-size: 26px;
   letter-spacing: 1px;
-  padding: 15px 0;
+  padding: 15px 0 20px 0;
 }
 
 .links {
   display: flex;
   flex-direction: row;
+  margin: 10px 0 20px 0;
 }
 
 .links li {
-  padding: 16px 30px 0 0;
+  /* padding: 16px 30px 0 0; */
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
 .links a {
   color: #262626;
-  font-size: 18px;
+  font-size: 22px;
+  padding: 20px 30px 20px 0;
+}
+
+.links a:hover {
+  text-decoration: underline #5e17eb;
 }
 
 /* Estilização de imagem */
@@ -91,18 +108,7 @@ main {
   border-radius: 50%;
 }
 
-.sobre {
-  background-color: #5E17EB;
-  color: #262626;
-  height: 40vh;
-}
-
-.sobre h1 {
-  font-size: 30px;
-  padding: 30px 0;
-  font-family: 'Righteous', cursive;
-  color: white;
-}
+/* estilização das sections */
 
 .sobre p {
   font-size: 20px;
