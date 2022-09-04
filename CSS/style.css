@@ -54,6 +54,10 @@ header {
 
 }
 
+.nav-manu a:hover {
+  color: #a785ea;
+}
+
 /* fim do cabeçalho */
 
 /* estilizando o main */
@@ -99,6 +103,7 @@ header {
 
 .links a:hover {
   text-decoration: underline #5e17eb;
+  color: #a785ea;
 }
 
 /* Estilização de imagem */
@@ -121,8 +126,9 @@ header {
 }
 
 .sec-tittle {
+  font-size: 25px;
   font-family: 'Righteous', cursive;
-  padding: 25px 0;
+  padding: 35px 0;
   text-align: center;
   letter-spacing: 4px;
 }
