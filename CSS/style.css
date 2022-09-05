@@ -115,9 +115,36 @@ header {
 
 /* estilização das sections */
 
-.sobre p {
+/* .sobre p {
   font-size: 20px;
   color: white;
+} */
+
+.sobre-content {
+  display: flex;
+  /*
+  justify-content: center;
+  align-items: center; */
+}
+
+.sobre-img img {
+  max-width: 100%;
+}
+
+.sobre-img {
+  flex: 1;
+  /* background-color: red; */
+}
+
+.sobre-info--historia {
+  width: 600px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.sobre .sobre-body {
+  display: flex;
+  background-color: red;
 }
 
 .assinatura {
