@@ -129,6 +129,7 @@ header {
 
 .sobre-img img {
   max-width: 100%;
+  height: 200px;
 }
 
 .sobre-img {
