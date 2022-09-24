@@ -165,3 +165,58 @@ header {
   color: wheat;
   background-color: #5e17eb;
 }
+
+/* estilização das skills */
+.skills .sec-body {
+  display: flex;
+  margin-bottom: 20px;
+  /* justify-content: space-around; */
+}
+
+.content-skills-icons {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-skills-icons div {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-skills-icons img {
+  padding: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.content-skills-icons img:hover {
+  width: 110px;
+}
+
+.content-skills-desc {
+  background-color: #5e17eb;
+  font-family: 'Righteous', cursive;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.content-skills-desc h1 {
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 30px;
+
+}
+
+.content-skills-desc div {
+  padding: 10px 50px;
+  margin: auto;
+}
+
+.content-skills-desc div p {
+  font-size: 18px;
+  color: #FFF;
+}
