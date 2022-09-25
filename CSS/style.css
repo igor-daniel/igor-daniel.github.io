@@ -247,7 +247,7 @@ header {
 }
 
 .card {
-  width: 400px;
+  width: 330px;
   padding-bottom: 20px;
 }
 
@@ -296,4 +296,9 @@ header {
 .txt-btn p {
   padding-left: 10px;
   font-size: 18px;
+}
+
+.projects .sec-body {
+  display: flex;
+  justify-content: space-between;
 }
