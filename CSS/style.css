@@ -282,7 +282,7 @@ header {
 }
 
 .btns a:hover {
-  background-color: #2E9CF3;
+  background-color: #5e17eb;
   border: none;
 }
 
@@ -301,4 +301,29 @@ header {
 .projects .sec-body {
   display: flex;
   justify-content: space-between;
+}
+
+/* fim dos projetos */
+
+/* Inicio do footer */
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .info {
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+footer .info a {
+  text-decoration: underline;
+}
+
+footer .icones img {
+  width: 40px;
+  padding: 10px;
 }
