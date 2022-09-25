@@ -223,3 +223,77 @@ header {
   font-size: 18px;
   color: #FFF;
 }
+
+/* Fim das skills */
+
+/* Inicio dos projetos. */
+
+.html {
+  background-color: #ff4500;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.css {
+  background-color: #2E9CF3;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.js {
+  background-color: #FFDF00;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.card {
+  width: 400px;
+  padding-bottom: 20px;
+}
+
+.card-img img {
+  max-width: 100%;
+}
+
+.card-desc {
+  background-color: #FFF;
+  margin-top: -4px;
+}
+
+.card-desc p {
+  color: #262626;
+  padding: 25px 15px;
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+}
+
+.btns {
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0 35px 0;
+}
+
+.btns a {
+  border: solid 1px #262626;
+  padding: 7px;
+  width: 130px;
+  transition: ease 1s;
+}
+
+.btns a:hover {
+  background-color: #2E9CF3;
+  border: none;
+}
+
+.txt-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Righteous', cursive;
+}
+
+.txt-btn p {
+  padding-left: 10px;
+  font-size: 18px;
+}
