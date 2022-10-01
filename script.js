@@ -5,4 +5,8 @@ let css = document.querySelector('.content-skills-icons img[alt="css"]');
 let js = document.querySelector('.content-skills-icons img[alt="js"]');
 let git = document.querySelector('.content-skills-icons img[alt="git"]');
 
+function escreve(){
+  switch 
+}
+
 html.addEventListener('hover', escreve)
