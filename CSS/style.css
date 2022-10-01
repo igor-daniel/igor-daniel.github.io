@@ -4,6 +4,10 @@
   list-style: none;
 }
 
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
 .limite {
   width: 85%;
   margin: auto;
@@ -11,47 +15,43 @@
   padding-left: 100px; */
 }
 
-/* @font-face {
-    font-family: 'razed';
-    src: url('/fonts/razed/HBM\ Razed\ Light\ \(personal\ use\ only\).ttf') format('truetype');
-  } */
 a {
   text-decoration: none;
   color: #262626;
 }
 
+/* header */
 .logo a {
   font-family: 'Montserrat Subrayada', sans-serif;
   color: #5e17eb;
   font-size: 40px;
 }
 
-header {
-  display: flex;
-}
-
 .head {
   display: flex;
-  justify-content: space-between;
   color: #262626;
   height: 10vh;
+  align-items: center;
 }
 
-
-.head div {
-  margin: 20px;
-  padding: 25px 0;
+.logo {
+  width: 35%;
 }
 
 .nav-manu {
+  width: 65%;
+  justify-content: flex-end;
+}
+
+.nav-manu ul {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 
 .nav-manu li {
   padding: 0px 25px;
-  font-size: 20px;
-
+  font-size: 25px;
 }
 
 .nav-manu a:hover {
@@ -324,4 +324,78 @@ footer .info a {
 footer .icones img {
   width: 40px;
   padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    width: 35%;
+  }
+
+  .logo a {
+    font-size: 30px;
+  }
+
+  .nav-manu {
+    width: 65%;
+  }
+
+  .nav-manu li {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+
+  /* fim do header */
+  /* inicio do main */
+  .main-sec h1 {
+    font-size: 30px;
+    padding: 0;
+  }
+
+  .main-sec p {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+
+  .links a {
+    font-size: 18px;
+    padding: 10px 20px 10px 0;
+  }
+
+  .image img {
+    width: 300px;
+  }
+
+  /* fim do main */
+  /* inicio do sobre mim */
+  .sec-tittle {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+
+  .sobre-info--historia {
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  /* fim do sobre mim */
+  /* inicio das skills */
+  /* fim das skills */
+  /* inicio dos projetos */
+  .projects .sec-body {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 450px;
+    margin: auto;
+  }
+
+  .card-desc p {
+    padding: 10px 15px;
+  }
+
+  .btns {
+    padding: 10px 0;
+  }
 }
