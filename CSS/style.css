@@ -399,3 +399,82 @@ footer .icones img {
     padding: 10px 0;
   }
 }
+
+@media (max-width: 600px) {
+
+  /* inicio do main */
+  .conteudo {
+    margin-top: 10px;
+  }
+
+  .main-sec h1 {
+    font-size: 25px;
+  }
+
+  .main-sec p {
+    font-size: 15px;
+    padding: 10px 0 0 0;
+  }
+
+  .links a {
+    font-size: 14px;
+    padding: 5px 10px 5px 0;
+  }
+
+  .image img {
+    width: 230px;
+  }
+
+
+  /* inicio do sobre */
+  .sobre-content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sobre-img img {
+    max-width: 100%;
+  }
+
+  .sobre-img {
+    width: 50%;
+  }
+
+  .sobre-info--historia {
+    width: 100%;
+  }
+
+  /* inicio do skills */
+  .skills .sec-body {
+    flex-direction: column;
+  }
+
+  .content-skills-icons {
+    width: 100%;
+  }
+
+  .content-skills-icons img {
+    padding: 20px;
+  }
+
+  .content-skills-desc div {
+    padding: 0px 30px;
+    margin: auto;
+  }
+
+  .content-skills-desc {
+    width: 100%;
+  }
+
+  .content-skills-desc div p {
+    font-size: 15px;
+    padding: 20px 0;
+  }
+
+  .content-skills-desc h1 {
+    padding: 10px 0 0 0;
+    font-size: 25x;
+  }
+
+}
