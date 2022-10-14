@@ -193,10 +193,6 @@ a {
   cursor: pointer;
 }
 
-.content-skills-icons img:hover {
-  width: 110px;
-}
-
 .content-skills-desc {
   background-color: #5e17eb;
   font-family: 'Righteous', cursive;
