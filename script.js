@@ -13,3 +13,12 @@ function showText(el, text, interval){
   }, interval);
 }
 showText(el, text, interval);
+
+// menu mobile
+
+const btnMobile = document.querySelector('#btn-mobile')
+function toggleMenu(){
+  const nav = document.querySelector('.nav-manu ul')
+  nav.classList.toggle('active')
+};
+btnMobile.addEventListener('click', toggleMenu);
