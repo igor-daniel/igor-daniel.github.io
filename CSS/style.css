@@ -298,7 +298,8 @@ a {
 
 .projects .sec-body {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 /* fim dos projetos */
@@ -538,11 +539,11 @@ footer .icones img {
     visibility: visible;
   }
 
-  .nav-manu ul li a {
+  /* .nav-manu ul li a {
     font-size: 30px;
     margin: 0 3rem;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
-  }
+  } */
 
 
   .nav-manu li {
