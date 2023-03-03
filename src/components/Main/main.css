@@ -1,0 +1,61 @@
+.limite {
+  width: 85%;
+  margin: auto;
+  /* padding-right: 100px;
+  padding-left: 100px; */
+}
+
+a {
+  text-decoration: none;
+  color: #262626;
+}
+
+/* estilizando o main */
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 30px 10px;  */
+  /* height: 50vh; */
+}
+
+.main-sec h1 {
+  font-size: 45px;
+  padding: 70px 0 30px 0;
+  color: #262626;
+  font-family: 'Righteous', cursive;
+}
+
+.main-sec p {
+  font-size: 22px;
+  padding: 15px 0 20px 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 20px 0;
+}
+
+.links li {
+  /* padding: 16px 30px 0 0; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  color: #262626;
+  font-size: 22px;
+  padding: 20px 30px 20px 0;
+}
+
+.links a:hover {
+  text-decoration: underline #5e17eb;
+  color: #a785ea;
+}
+
+/* Estilização de imagem */
+.image img {
+  width: 470px;
+}
