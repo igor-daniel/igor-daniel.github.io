@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/igor-daniel.github.io/static/css/main.41b8127e.css",
+    "main.js": "/igor-daniel.github.io/static/js/main.245a859b.js",
+    "static/js/787.9765ca44.chunk.js": "/igor-daniel.github.io/static/js/787.9765ca44.chunk.js",
+    "static/media/fotoEdita.png": "/igor-daniel.github.io/static/media/fotoEdita.eec087ad425a9c540a8f.png",
+    "static/media/Programmer-cuate.svg": "/igor-daniel.github.io/static/media/Programmer-cuate.28c045e8bdb30d3941a7dc635d9451f1.svg",
+    "static/media/ID.png": "/igor-daniel.github.io/static/media/ID.a6be2857708c292823e9.png",
+    "index.html": "/igor-daniel.github.io/index.html",
+    "main.41b8127e.css.map": "/igor-daniel.github.io/static/css/main.41b8127e.css.map",
+    "main.245a859b.js.map": "/igor-daniel.github.io/static/js/main.245a859b.js.map",
+    "787.9765ca44.chunk.js.map": "/igor-daniel.github.io/static/js/787.9765ca44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41b8127e.css",
+    "static/js/main.245a859b.js"
+  ]
+}
