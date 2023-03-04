@@ -1,0 +1,54 @@
+/* .sobre p {
+  font-size: 20px;
+  color: white;
+} */
+
+.sobre-content {
+  display: flex;
+  /*
+  justify-content: center;
+  align-items: center; */
+}
+
+.sobre-img img {
+  max-width: 85%;
+  border-radius: 50%;
+  /* max-width: 100%;
+  height: 200px; */
+}
+
+.sobre-img {
+  width: 40%;
+  /* flex:4 1; */
+  /* background-color: red; */
+}
+
+.sobre-info--historia {
+  width: 60%;
+  margin-top: 60px;
+  margin-left: 60px;
+  font-size: 25px;
+}
+
+.sobre .sobre-body {
+  display: flex;
+  background-color: red;
+}
+
+.assinatura {
+  font-family: 'Whisper', cursive;
+  text-align: end;
+}
+
+.sec-tittle {
+  font-size: 25px;
+  font-family: 'Righteous', cursive;
+  padding: 35px 0;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.dark {
+  color: wheat;
+  background-color: #5e17eb;
+}

@@ -1,0 +1,20 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .info {
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+footer .info a {
+  text-decoration: underline;
+}
+
+footer .icones img {
+  width: 40px;
+  padding: 10px;
+}
